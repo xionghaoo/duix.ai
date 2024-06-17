@@ -113,7 +113,7 @@ class CallActivity : BaseActivity() {
     }
 
     private fun playWav() {
-        val wavName = "help.wav"
+        val wavName = "test.wav"
         val wavDir = File(mContext.getExternalFilesDir("duix"), "wav")
         if (!wavDir.exists()) {
             wavDir.mkdirs()

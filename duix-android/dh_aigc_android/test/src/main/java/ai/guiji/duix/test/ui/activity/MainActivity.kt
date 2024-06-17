@@ -27,9 +27,14 @@ class MainActivity : BaseActivity() {
     // https://cdn.guiji.ai/duix/digital/model/1706009711636/liangwei_540s.zip
     // https://cdn.guiji.ai/duix/digital/model/1706009766199/mingzhi_540s.zip
     private val modelUrl =
-        "https://cdn.guiji.ai/duix/digital/model/1706009711636/liangwei_540s.zip"
+//        "https://cdn.guiji.ai/duix/digital/model/1706009711636/liangwei_540s.zip"
+//        "https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888801385/murongxiao_20240528.zip"
+//        "https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716888936579/sufei_20240528.zip"
+//        "https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891579303/yiyao_20240529.zip"
+//        "https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716891699212/xinyan_20240529.zip"
+        "https://digital-public.obs.cn-east-3.myhuaweicloud.com/duix/digital/model/1716034688/bendi1_0329.zip"
     private lateinit var modelDir: File
-    private val liangweiUUID = "d39caddd-488b-4682-b6d1-13549b135dd1"       // 可以用来控制模型文件版本
+    private val liangweiUUID = "d39caddd-488b-4682-b6d1-13549b135dd6"       // 可以用来控制模型文件版本
     private var modelReady = false
 
 
